@@ -1,0 +1,1024 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 980px;
+    background-image: url('./images/Rectangle\ 19291.png');
+    background-size: cover;
+}
+
+.main .navbar .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1519px;
+}
+
+
+
+.logo img {
+
+    height: 80px;
+    width: 100px;
+    margin-right: 100px;
+    margin-top: 180px;
+
+}
+
+.home {
+    font-size: 20px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 70px;
+    margin-top: 150px;
+    cursor: grab;
+}
+
+.about {
+    font-size: 20px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 70px;
+    margin-top: 150px;
+    cursor: grab;
+}
+
+
+.service {
+    font-size: 20px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 70px;
+    margin-top: 150px;
+    cursor: grab;
+}
+
+.up {
+    font-size: 20px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 70px;
+    margin-top: 150px;
+    cursor: grab;
+}
+
+.btntouch button {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(211, 105, 60);
+    border: none;
+    font-size: 15px;
+    color: azure;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.btntouch button:hover {
+    background-color: rgb(200, 206, 206);
+    color: rgb(235, 102, 8);
+}
+
+.head .about:hover,
+.head .home:hover,
+.head .service:hover,
+.head .up:hover {
+    color: rgb(235, 105, 12)
+}
+
+
+.title {
+    height: 400px;
+    width: 800px;
+    margin-left: 230px;
+    margin-top: 200px;
+}
+
+.titlebar {
+    display: flex;
+    height: 80px;
+    width: 790px;
+    background-color: rgb(210, 201, 201);
+    /* filter: blur(); */
+    opacity: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 4%;
+    justify-content: space-around;
+}
+
+.lineone {
+    font-size: 50px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.linetwo {
+    font-size: 50px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.linethree {
+    font-size: 50px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.whr {
+    font-size: 17px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-right: 100px; */
+}
+
+.travel {
+    font-size: 17px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-right: 90px; */
+}
+
+.duration {
+    font-size: 17px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-right: 70px; */
+}
+
+.submit button {
+    height: 39px;
+    width: 110px;
+    border-radius: 4%;
+    background-color: rgb(243, 109, 51);
+    border: none;
+    color: white;
+}
+
+.submit button:hover {
+    background-color: rgb(197, 201, 201);
+    color: rgb(238, 109, 17);
+}
+
+.boxone {
+    height: 55px;
+    width: 3px;
+    background-color: rgb(247, 249, 250);
+}
+
+.boxtwo {
+    height: 55px;
+    width: 3px;
+    background-color: rgb(247, 249, 250);
+}
+
+.boxthree {
+    height: 55px;
+    width: 3px;
+    background-color: rgb(247, 249, 250);
+}
+
+.imgbar {
+    display: flex;
+    margin-top: 10px;
+}
+
+.imgbar img {
+    height: 42px;
+    width: 45px;
+}
+
+.imgone {
+    height: 5px;
+    width: 5px;
+    margin-left: 10px;
+}
+
+.imgtwo {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.imgthree {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.imgfour {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.imgfive {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.imgsix {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.imgseven {
+    height: 5px;
+    width: 5px;
+    margin-left: 20px;
+}
+
+.book {
+    font-size: 15px;
+    color: azure;
+    margin-left: 45px;
+    margin-top: 12px;
+}
+
+.secondmain {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(247, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondmain img {
+    height: 70px;
+    width: 140px;
+    margin-right: 50px;
+
+}
+
+.secondmain .first {
+    margin-right: 70px;
+}
+
+.secondmain .second {
+    margin-right: 50px;
+}
+
+.secondmain .third {
+    margin-right: 40px;
+}
+
+.secondmain .forth {
+    margin-right: 40px;
+}
+
+.thirdmain {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+
+.category {
+    align-items: center;
+    text-align: center;
+    color: rgb(236, 112, 24);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.offer {
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    margin-top: 13px;
+}
+
+.bestservicies {
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-around;
+}
+
+.medical {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.religious {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.guid {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bestoption {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.guid img {
+    height: 60px;
+    width: 90px;
+
+}
+
+
+.bestoption img {
+    height: 60px;
+    width: 90px;
+
+}
+
+.religious img {
+    height: 60px;
+    width: 90px;
+
+}
+
+.medical img {
+    height: 60px;
+    width: 90px;
+
+}
+
+.titleguid {
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titlebest {
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titlereligious {
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titlemedical {
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.detail-g {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-b {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-r {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-m {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.honeymoon {
+    display: flex;
+    margin-top: 100px;
+}
+
+.view button:hover {
+    background-color: rgb(197, 201, 201);
+    color: rgb(238, 109, 17);
+}
+
+.honeymoon img {
+    height: 800px;
+    width: 700px;
+    margin-left: 30px;
+}
+
+.detail-honey {
+    margin-top: 200px;
+    margin-left: 110px;
+}
+
+.title-honey {
+    font-size: 28px;
+    color: rgb(237, 107, 14);
+    font-family: sans-serif;
+}
+
+.title-tropical {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.honey-lines {
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.view button {
+    height: 45px;
+    width: 130px;
+    margin-top: 30px;
+    background-color: rgb(243, 109, 51);
+    color: azure;
+    border: none;
+    border-radius: 4%;
+    font-size: 15px;
+}
+
+.fav-booking {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.fast {
+    font-size: 20px;
+    color: rgb(234, 100, 5);
+    font-family: sans-serif;
+}
+
+.fav-title {
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.choose {
+    display: flex;
+    margin-top: 40px;
+}
+
+.check {
+    display: flex;
+    margin-top: 40px;
+}
+
+.go {
+    display: flex;
+    margin-top: 40px;
+}
+
+.choose img {
+    height: 50px;
+    width: 100;
+}
+
+.check img {
+    height: 50px;
+    width: 100;
+}
+
+.go img {
+    height: 50px;
+    width: 100;
+}
+
+.choose-inner {
+    margin-left: 25px;
+}
+
+.check-inner {
+    margin-left: 25px;
+}
+
+.go-inner {
+    margin-left: 25px;
+}
+
+.choose-title {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.check-title {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.go-title {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.choose-lines {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.check-lines {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.go-lines {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fav-image {
+    display: flex;
+}
+
+.plan img {
+    height: 270px;
+    width: 380px;
+}
+
+
+
+.trip img {
+    height: 550px;
+    width: 450px;
+    margin-top: 50px;
+
+}
+
+
+.plus {
+    margin-top: 360px;
+
+}
+
+.forthmain {
+    height: 390px;
+    width: 100%;
+    background-image: url('./images/sepratir/Rectangle\ 19294.png');
+    background-size: cover;
+    font-size: 60px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    /* position: absolute; */
+}
+
+.holiday {
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.holiday1 .p1 {
+    padding-top: 70px;
+}
+
+
+.fifthmain {
+    width: 1437px;
+    height: 600px;
+    background-color: white;
+    margin-left: 80px;
+}
+
+.promotion {
+    font-size: 25px;
+    color: rgb(237, 107, 14);
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.promote-title1 {
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.promote-title2 {
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9px;
+}
+
+.promote-button button:hover {
+    background-color: rgb(197, 201, 201);
+    color: rgb(238, 109, 17);
+}
+
+.promote-lines {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promote-button button {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(240, 107, 12);
+    color: azure;
+    border: none;
+    border-radius: 4%;
+    font-size: 18px;
+}
+
+.promo {
+    display: flex;
+}
+
+.pro-img {
+    margin-bottom: 100px;
+}
+
+.img5 img {
+    width: 400px;
+    height: 444px;
+    margin-left: 190px;
+    position: absolute;
+    padding-bottom: 30px;
+}
+
+
+.promotion-imgs {
+    display: flex;
+    margin-top: 40px;
+}
+
+.promotion-imgs img {
+    height: 200px;
+    width: 200px;
+}
+
+.img2 {
+    margin-right: 20px;
+}
+
+.img1 {
+    margin-right: 20px;
+}
+
+.img3 {
+    margin-right: 20px;
+}
+
+.img4 {
+    margin-right: 20px;
+}
+
+.p-line-img {
+    display: flex;
+}
+
+.sixthmain {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+
+.nature {
+    background-image: url('./images/explore-packages/Rectangle\ 19301.png');
+    background-size: cover;
+    width: 760px;
+    text-align: center;
+    align-items: center;
+}
+
+.cities {
+    background-image: url('./images/explore-packages/Rectangle\ 19302.png');
+    background-size: cover;
+    width: 760px;
+    text-align: center;
+    align-items: center;
+}
+
+.promotion-nature {
+    margin-top: 140px;
+    color: beige;
+    font-size: 20px;
+}
+
+.title-nature {
+    font-size: 60px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nature-btn button {
+    height: 30px;
+    width: 90px;
+    font-size: xx-small;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: azure;
+}
+
+.nature-btn button:hover {
+    background-color: rgb(240, 107, 12);
+    color: beige;
+    border: none;
+
+}
+
+.cities-btn button:hover {
+    background-color: rgb(240, 107, 12);
+    color: beige;
+    border: none;
+
+}
+
+
+.promotion-cities {
+    margin-top: 140px;
+    color: beige;
+    font-size: 20px;
+}
+
+.title-cities {
+    font-size: 60px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cities-btn button {
+    height: 30px;
+    width: 90px;
+    font-size: xx-small;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: azure;
+}
+
+.sevenmain {
+    width: 100%;
+    height: 860px;
+}
+
+.trendy {
+    align-items: center;
+    text-align: center;
+    color: rgb(236, 112, 24);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 90px;
+}
+
+.trendy-title {
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.trendy-packages {
+    display: flex;
+    gap: 40px;
+    margin-top: 90px;
+    margin-left: 180px;
+}
+
+
+.img-one img {
+    width: 300px;
+    height: 260px;
+}
+
+.img-two img {
+    width: 300px;
+    height: 260px;
+
+}
+
+.img-three img {
+    width: 300px;
+    height: 260px;
+}
+
+/* .pac-one {
+    margin-left: 100px;
+} */
+
+.visit {
+    display: flex;
+}
+
+.day {
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.ppl {
+    margin-top: 20px;
+    margin-left: 6px;
+    font-size: 17px;
+}
+
+.cal img {
+    height: 50px;
+    width: 50px;
+}
+
+.people img {
+    height: 28px;
+    width: 28px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.country {
+    display: flex;
+    gap: 20px;
+}
+
+.land {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.star img {
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.star2 img {
+    height: 80px;
+    width: 80px;
+    margin-left: 140px;
+}
+
+.star3 img {
+    height: 80px;
+    width: 80px;
+    margin-left: 180px;
+}
+
+.location {
+    display: flex;
+}
+
+.explore-btn button:hover {
+    background-color: rgb(197, 201, 201);
+    color: rgb(238, 109, 17);
+}
+
+.loc img {
+    height: 30px;
+    width: 30px;
+}
+
+.locate {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.pay {
+    font-size: 30px;
+    color: rgb(249, 115, 19);
+}
+
+.detail-land {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.explore-btn button {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(240, 107, 12);
+    color: azure;
+    font-size: 18px;
+    border: none;
+    border-radius: 4%;
+    margin-top: 35px;
+}
+
+.eightmain {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    gap: 160px;
+    /* margin-left: 70px; */
+    background-image: url('./images/testinomals/img-1.jpeg');
+    background-size: cover;
+
+}
+
+.eightmain .travel {
+    margin-left: 150px;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.travel-info {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.travel-info2 {
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+.contact-info {
+    display: flex;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.company {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+.com-info {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.des-info {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career {
+    margin-top: 25px;
+}
+
+.blog {
+    margin-top: 25px;
+}
+
+.price {
+    margin-top: 25px;
+}
+
+
+
+.submit button {
+    height: 20;
+    width: 100px;
+
+    border-radius: 4%;
+}
+
+input {
+    height: 39px;
+    width: 170px;
+
+}
+
+.information {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.copyright {
+    height: 100px;
+}
+
+.cp {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+hr {
+    width: 1000px;
+    margin-left: 250px;
+}
